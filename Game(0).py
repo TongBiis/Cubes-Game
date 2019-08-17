@@ -1,10 +1,11 @@
 import pygame
 
+from audio import sound
+
 pygame.init()
 win = pygame.display.set_mode((500, 500))
 
-pygame.mixer.music.load('audio\\russian_ethnic(loops_bpm_96).mp3')
-pygame.mixer.music.play()
+
 
 pygame.display.set_caption("Cubes Game")
 
