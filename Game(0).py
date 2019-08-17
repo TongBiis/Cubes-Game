@@ -1,5 +1,4 @@
 import pygame
-
 from audio import sound
 
 pygame.init()
