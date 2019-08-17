@@ -91,13 +91,13 @@ while run:
 
     keys = pygame.key.get_pressed()
 
-    if keys[pygame.K_f]:
+    if keys[pygame.K_SPACE]:
         if lastMove == "right":
             facing = 1
         else:
             facing = -1
 
-        if len(bullets) < 5:
+        if len(bullets) < 80:
             bullets.append(snaryad(round(x + width // 2), round(y + height // 2), 5, (255, 0, 0), facing))
 
     if keys[pygame.K_LEFT] and x > 5:
@@ -115,7 +115,7 @@ while run:
         right = False
         animCount = 0
     if not (isJump):
-        if keys[pygame.K_SPACE]:
+        if keys[pygame.K_UP]:
             isJump = True
     else:
         if jumpCount >= -10:
