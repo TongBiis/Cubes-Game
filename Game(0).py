@@ -5,22 +5,22 @@ win = pygame.display.set_mode((500, 500))
 
 pygame.display.set_caption("Cubes Game")
 
-walkRight = [pygame.image.load('pygame_right_1.png'),
-             pygame.image.load('pygame_right_2.png'),
-             pygame.image.load('pygame_right_3.png'),
-             pygame.image.load('pygame_right_4.png'),
-             pygame.image.load('pygame_right_5.png'),
-             pygame.image.load('pygame_right_6.png')]
+walkRight = [pygame.image.load('img\pygame_right_1.png'),
+             pygame.image.load('img\pygame_right_2.png'),
+             pygame.image.load('img\pygame_right_3.png'),
+             pygame.image.load('img\pygame_right_4.png'),
+             pygame.image.load('img\pygame_right_5.png'),
+             pygame.image.load('img\pygame_right_6.png')]
 
-walkLeft = [pygame.image.load('pygame_left_1.png'),
-            pygame.image.load('pygame_left_2.png'),
-            pygame.image.load('pygame_left_3.png'),
-            pygame.image.load('pygame_left_4.png'),
-            pygame.image.load('pygame_left_5.png'),
-            pygame.image.load('pygame_left_6.png')]
+walkLeft = [pygame.image.load('img\pygame_left_1.png'),
+            pygame.image.load('img\pygame_left_2.png'),
+            pygame.image.load('img\pygame_left_3.png'),
+            pygame.image.load('img\pygame_left_4.png'),
+            pygame.image.load('img\pygame_left_5.png'),
+            pygame.image.load('img\pygame_left_6.png')]
 
-bg = pygame.image.load('pygame_bg.jpg')
-playerStand = pygame.image.load('pygame_idle.png')
+bg = pygame.image.load('img\pygame_bg.jpg')
+playerStand = pygame.image.load('img\pygame_idle.png')
 
 clock = pygame.time.Clock()
 
